@@ -70,7 +70,7 @@ namespace Form_Testing
                 var watch = Stopwatch.StartNew();
                 string[] boardDirs = Directory.GetDirectories(originPath, "*");
 
-                //if (boardDirs.Length > 0)
+                if (boardDirs.Length > 0)
                 {
 
                     temp2 = GetDir(boardDirs);
@@ -82,10 +82,6 @@ namespace Form_Testing
                         fileCount = temp.Length;
                         if (fileCount > 0)
                             CopyFiles(originPath, destPath, temp, fileCount);
-                        temp = Directory.GetFiles(originPath, "*" + textBox1.Text + "*");
-                        fileCount = temp.Length;
-                        if (fileCount > 0)
-                            CopyFiles(originPath, destPath, temp, fileCount);
                     }
                     else if (checkBoxAllFiles.Checked)
                     {
@@ -93,12 +89,8 @@ namespace Form_Testing
                         fileCount = temp.Length;
                         if (fileCount > 0)
                             CopyFiles(originPath, destPath, temp, fileCount);
-                        temp = Directory.GetFiles(originPath, "*");
-                        fileCount = temp.Length;
-                        if (fileCount > 0)
-                            CopyFiles(originPath, destPath, temp, fileCount);
                     }
-                   
+                    fileCount = temp.Length;
                     labelFilesFound.Text = fileCount.ToString();
                     
 
@@ -126,7 +118,7 @@ namespace Form_Testing
 
                     }
                 }
-                /*
+                
                 else
                 {
                     // temp = Directory.GetFiles(originPath);
@@ -138,12 +130,12 @@ namespace Form_Testing
                     {
                         temp = Directory.GetFiles(originPath, "*");
                     }
-                    int fileCount = temp.Length;
+                    fileCount = temp.Length;
                     labelFilesFound.Text = fileCount.ToString();
                     CopyFiles(originPath, destPath, temp, fileCount);
                     
                 }
-                */
+                
                 watch.Stop();
                 var elapsed = watch.Elapsed;
 
