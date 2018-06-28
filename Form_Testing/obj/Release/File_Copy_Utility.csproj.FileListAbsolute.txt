@@ -1,0 +1,10 @@
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\bin\Release\Form_Testing.exe.config
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\bin\Release\Form_Testing.exe
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\bin\Release\Form_Testing.pdb
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\File_Copy_Utility.csprojResolveAssemblyReference.cache
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\Form_Testing.Form1.resources
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\Form_Testing.Properties.Resources.resources
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\File_Copy_Utility.csproj.GenerateResource.cache
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\File_Copy_Utility.csproj.CoreCompileInputs.cache
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\Form_Testing.exe
+C:\Users\asutphin\Documents\Visual Studio 2017\Learning_Grounds\Form_Testing\Form_Testing\obj\Release\Form_Testing.pdb
